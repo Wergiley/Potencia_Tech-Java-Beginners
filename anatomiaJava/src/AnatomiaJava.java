@@ -7,6 +7,6 @@ public class AnatomiaJava {
     }
 
     public static String nomeCompleto (String primeiroNome, String segundoNome){
-        return concat();
+        return concat(primeiroNome).segundoNome();
     }
 }
