@@ -32,6 +32,13 @@ public class Operadores {
             String resultado = a==b ? "Verdadeiro" : "Falso";
             
             System.out.println(resultado);
+
+            /*Relacionais */
+            int n1 = 5, n2 = 9;
+            boolean simNao = n1 == n2;
+            System.out.println(simNao);
         }    
+
+            /*Condicionais if, if else, else */
 }
 
