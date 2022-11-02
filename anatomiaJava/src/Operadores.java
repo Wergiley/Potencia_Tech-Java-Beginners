@@ -29,12 +29,8 @@ public class Operadores {
             int a, b;
             a = 5;
             b = 6;
-            String resultado;
-            if(a == b) {
-                resultado = "verdadeiro";
-            } else {
-                resultado = "Falso";
-            }
+            String resultado = a==b ? "Verdadeiro" : "Falso";
+            
             System.out.println(resultado);
         }    
 }
