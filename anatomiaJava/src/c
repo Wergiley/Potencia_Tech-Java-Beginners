@@ -1,0 +1,14 @@
+
+
+int main(){
+	int objetivo, atual, diferenca;
+
+	scanf("%d", &objetivo);
+	scanf("%d", &atual);
+
+	diferenca = objetivo - atual;
+
+	printf("%d", diferenca); 
+
+	return 0;
+}
