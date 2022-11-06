@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class AboutMe {
     public static void main(String[] args) {
-        /*Criando o objeto scanner */
+        /*Programa simples, criando o objeto scanner */
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
 
         System.out.println("DIgite sua altura: ");
