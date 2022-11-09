@@ -35,12 +35,11 @@ public class ArraysVetores {
             System.out.println("Letra: ");
             String letra = scan.next();
 
-            /*Falta terminar 
             if(letra.equalsIgnoreCase(anotherString:"a")) { 
 
                     consoantes[count] = letra;
                     quantidades++;
-            }*/
+            }
         } while(count2 < consoantes.length);
 
         for(String consoante : consoantes){

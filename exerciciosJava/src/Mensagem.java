@@ -1,5 +1,3 @@
-import javax.xml.transform.SourceLocator;
-
 public class Mensagem {
     public static void obterMensagem(int hora) {
         switch(hora) {
