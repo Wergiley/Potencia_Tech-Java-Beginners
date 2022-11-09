@@ -5,7 +5,7 @@ public class numAleatorios {
             Random random = new Random();
             int[] numAleatorios = new int[20];
             for( int i = 0; i < numAleatorios.length; i++){
-                int numero = random.nextInt(bound:100);
+                int numero = random.nextInt();
                 numAleatorios[i] = numero;
             } 
             System.out.println("Numeros aleatorios:");

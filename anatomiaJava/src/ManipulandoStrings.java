@@ -1,4 +1,4 @@
-public class AnatomiaJava {
+public class ManipulandoStrings {
     public static void main(String[] args) {
         String primeiroNome = "Gustavo";
         String segundoNome = "Henrique";
