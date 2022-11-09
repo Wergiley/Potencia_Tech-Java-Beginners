@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
+        /*Fazendo as chamadas dos metodos dos exercícios. */
         System.out.println("Exercício Calculadora: ");
 
         Calculadora.soma(3, 6);
