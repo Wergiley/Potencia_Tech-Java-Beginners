@@ -45,10 +45,5 @@ class ClassCarro {
     double totalValorTanque(double ValorCombustivel) {
         return capacidadeTanque * ValorCombustivel;
     }
-    // fim do metodo.
-
-    // Criando Objetos...
-
-
     // sobrecarga - são diversos parâmetros por varias alternativas diferentes.
 }

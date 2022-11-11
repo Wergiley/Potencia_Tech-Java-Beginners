@@ -1,6 +1,6 @@
 public class InfoCarro {
     public static void main(String[] args) {
-
+        // Obejeto carro1
         ClassCarro carro1 = new ClassCarro();
 
         carro1.setCor("Azul");
@@ -14,6 +14,7 @@ public class InfoCarro {
         System.out.println("Capacidade do Tanque: "+carro1.getCapacidadeTanque()+"L");
         System.out.println("Tanque Completo: R$"+carro1.totalValorTanque(5.59)+" Reais");
 
+        // Objeto carro2
         ClassCarro carro2 = new ClassCarro("Vermelho", "Audi", 66);
 
         System.out.println("\nInformações do carro:");
