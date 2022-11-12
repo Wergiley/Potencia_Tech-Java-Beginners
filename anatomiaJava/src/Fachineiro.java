@@ -1,3 +1,3 @@
 class Fachineiro extends Funcionario {
-        
+    
 }

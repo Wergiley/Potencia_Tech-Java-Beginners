@@ -1,5 +1,4 @@
-
 class Vendedor extends Funcionario {
-        
+      
 }
 
