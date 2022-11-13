@@ -93,4 +93,10 @@ public class ExemploList {
     // Verifica se há elementos no vetor e retorna um boolean:
     System.out.println("A lista possui elementos? "+notas.isEmpty());
     }
+    
+    // Final - Conclua um exercício:
+    // Crie uma lista chamada nota2.
+    // coloque os elementos desta lista.
+    // mostre a primeira nota da nova ista sem remove-lo.
+    // mostre a primeira nota da nova lista removendo-0.
 }
