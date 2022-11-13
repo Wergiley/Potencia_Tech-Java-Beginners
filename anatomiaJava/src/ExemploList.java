@@ -100,9 +100,6 @@ public class ExemploList {
     // mostre a primeira nota da nova lista removendo-0.
     // continua...
 
+        
     }
-    public static void main2(String[] args) {
-        // Proxima Aula: Ordenando elementos em uma coleçao.
-    }
-
 }
