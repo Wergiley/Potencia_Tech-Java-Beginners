@@ -14,7 +14,7 @@ public class ExemploList {
     notas.add(5.0);
     notas.add(8.5);
     notas.add(9.5);
-    notas.add(0.5);
+    notas.add(0.0);
     notas.add(3.5);
     notas.add(4.5);
 
@@ -50,15 +50,47 @@ public class ExemploList {
     // Exibe a maior nota: 
     System.out.println("Exiba a maior nota: "+ Collections.max(notas));
 
-    // Exibe a soma dos valores do vetor:
+    // Soma os valores do vetor:
     Iterator<Double> iterator = notas.iterator();
     Double soma = 0d;
     while(iterator.hasNext()) {
         Double next = iterator.next();
         soma += next;
     }
-
     System.out.println("Exiba a soma dos valores: "+soma);
-    // continua...
+
+    // Exibe a média das notas:
+    System.out.println("Média das notas: "+soma/notas.size());
+
+    // Remova a nota 0 do vetor:
+    notas.remove(0d);
+    System.out.println("Removendo nota 0:");
+    System.out.println(notas);
+
+    // Remova a nota na posisão 0:
+    notas.remove(0);
+    System.out.println("Removendo a nota na posisão 0:");
+    System.out.println(notas);
+
+    // Remova as notas menores que 7 e exiba a lista:
+    System.out.println("Remova as notas menores que 7 e exiba a lista: ");
+
+    Iterator<Double> iterator1 = notas.iterator();
+
+    while(iterator1.hasNext()) {
+        Double next = iterator1.next();
+        if(next < 7 ) iterator1.remove();
+    }
+
+    System.out.println(notas);
+
+    // Apagando toda lista.
+
+    System.out.println("Apague toda a lista:");
+    notas.clear();
+    System.out.println(notas);
+
+    // Verifica se há elementos no vetor e retorna um boolean:
+    System.out.println("A lista possui elementos? "+notas.isEmpty());
     }
 }
