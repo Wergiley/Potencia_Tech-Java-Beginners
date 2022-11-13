@@ -20,10 +20,10 @@ public class ExemploList {
 
     System.out.println(notas.toString());
 
-    // Exibe a posisão dos vetores.
+    // Exibe a posição dos vetores.
     System.out.println("Exiba a posisão da nota 5: "+ notas.indexOf(5d));
 
-    // Adiciona e substitui o valor na posisão no vetor
+    // Adiciona e substitui o valor na posição no vetor
     System.out.println("Adicione na lista a nota 8.0 na posisão 4: ");
     notas.add(4, 8d);
     System.out.println(notas);
@@ -67,7 +67,7 @@ public class ExemploList {
     System.out.println("Removendo nota 0:");
     System.out.println(notas);
 
-    // Remova a nota na posisão 0:
+    // Remova a nota na posição 0:
     notas.remove(0);
     System.out.println("Removendo a nota na posisão 0:");
     System.out.println(notas);
