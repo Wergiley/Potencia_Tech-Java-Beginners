@@ -2,19 +2,19 @@ import java.util.Scanner;
 
 public class fatorial {
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
+        try (Scanner scan = new Scanner(System.in)) {
+            int fatorial;
 
-        int fatorial;
+            System.out.println("Fatorial de!: ");
+            fatorial = scan.nextInt();
 
-        System.out.println("Fatorial de!: ");
-        fatorial = scan.nextInt();
+            int mult = 1;
 
-        int mult = 1;
-
-        for(int i = fatorial; i >= 1; i--){
-           mult = mult * i;
+            for(int i = fatorial; i >= 1; i--){
+               mult = mult * i;
+            }
+            System.out.println(mult);
         }
-        System.out.println(mult);
 
     }
 }

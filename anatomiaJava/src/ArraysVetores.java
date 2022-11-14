@@ -18,35 +18,45 @@ public class ArraysVetores {
 
         System.out.println("Ordem inversa: ");
 
-        for(int i = (vetor.length - 1); i>= 0; i--){
+        for(int i = (vetor.length - 1); i >= 0; i--){
             System.out.println(vetor[i] + " ");
         }
 
         /*vetor que irá ler 6 caracteres e quantas consoantes foram lidas e imprima*/
 
-        Scanner scan = new Scanner(System.in);
+        try (Scanner scan = new Scanner(System.in)) {
+            String[] consoantes = new String[6];
 
-        String[] consoantes = new String[6];
+            int quantidadesConsoantes = 0;
+            int count2 = 0;
 
-        int quantidades = 0;
-        int count2 = 0;
+            do {
+                System.out.println("Letra: ");
+                String letra = scan.next();
 
-        do {
-            System.out.println("Letra: ");
-            String letra = scan.next();
+                if( !(letra.equalsIgnoreCase("a") |
+                        letra.equalsIgnoreCase("e") |
+                        letra.equalsIgnoreCase("i") |
+                        letra.equalsIgnoreCase("o") |
+                        letra.equalsIgnoreCase("u"))) { 
 
-            if(letra.equalsIgnoreCase(anotherString:"a")) { 
+                        consoantes[count] = letra;
+                        quantidadesConsoantes++;
+                }
 
-                    consoantes[count] = letra;
-                    quantidades++;
+            } while(count2 < consoantes.length);
+
+            System.out.println("Consoates: "+ consoantes);
+
+            for(String consoante : consoantes){
+                if(consoante != null) {
+                    System.out.println(consoante + " ");
+                }
             }
-        } while(count2 < consoantes.length);
-
-        for(String consoante : consoantes){
-            if(consoante != null) {
-                System.out.println(consoante + " ");
-            }
+            
+            System.out.println(quantidadesConsoantes);
+            System.out.println(consoantes.length);
         }
 
     }
-    }
+}

@@ -1,7 +1,6 @@
 
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.Iterator;
 import java.util.List;
 import java.util.Comparator;
 
@@ -27,24 +26,27 @@ public class ExemploList02 {
         System.out.println(meusGatos);
 
         System.out.println("Ordem aleatória: \t");
+        // Embaralha a lista
         Collections.shuffle(meusGatos);
         System.out.println(meusGatos);
 
         System.out.println("Ordem natural por nome:\t");
+        // Ordena na ordem de inserção
         Collections.sort(meusGatos);
         System.out.println(meusGatos);
 
         System.out.println("Ordem Idade: \t");
         //Collections.sort(meusGatos, new ComparatorIdade());
-
         meusGatos.sort(new ComparatorIdade());
         System.out.println(meusGatos);
 
         System.out.println("Ordem cor: \t");
+        // Ordem por cor, com comparator
         meusGatos.sort(new ComparatorCor());
         System.out.println(meusGatos);
 
         System.out.println("Ordem nome, cor idade: \t");
+        // Ordem por idade, com comparator
         Collections.sort(meusGatos, new ComparatorIdade());
         //meusGatos.sort(new ComparatorNomeCorIdade());
         System.out.println(meusGatos);
