@@ -17,12 +17,12 @@ public class Operadores {
 
             /*Incremento */
             int numero2 = 10;
-            numero2 = ++ numero2;
+            numero2 = ++numero2;
 
             System.out.println(numero2);
 
             /*Decremento */
-            numero2 = -- numero2;
+            numero2 = --numero2;
             System.out.println(numero2);
 
             /*Ternario */

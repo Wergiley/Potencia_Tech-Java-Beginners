@@ -3,15 +3,15 @@ import java.util.Scanner;
 public class test {
     public static void main(String[] args) {
 
-        Scanner leitor = new Scanner(System.in);
+        try (Scanner leitor = new Scanner(System.in)) {
+            int[] elementos = {64, 137, -16, 43, 67, 81, -90, 212, 10, 75};
+            int numero = 0;
 
-        int[] elementos = {64, 137, -16, 43, 67, 81, -90, 212, 10, 75};
-        int numero = 0;
+            System.out.println("Digite um numero inteiro: ");
+            numero = leitor.nextInt();
 
-        System.out.println("Digite um numero inteiro: ");
-        numero = leitor.nextInt();
-
-        buscaSequencial(numero, elementos);
+            buscaSequencial(numero, elementos);
+        }
 
     }
     public static void buscaSequencial(int numero, int[] elementos){

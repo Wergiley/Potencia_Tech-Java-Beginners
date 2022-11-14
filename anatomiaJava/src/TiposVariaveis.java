@@ -13,5 +13,7 @@ public class TiposVariaveis {
 
 
         System.out.println(sal_Minimo);
+        System.out.println(nome);
+        System.out.println(numCurto2);
     }
 }
