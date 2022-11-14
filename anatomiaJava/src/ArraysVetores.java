@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class ArraysVetores {
 
-    private static final String anotherString = null;
+    //private static final String anotherString = null;
 
     public static void main(String[] args) {
         /*Ordem inversa */

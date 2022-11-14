@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class fatorial {
+public class ExemploFatorial {
     public static void main(String[] args) {
         try (Scanner scan = new Scanner(System.in)) {
             int fatorial;
