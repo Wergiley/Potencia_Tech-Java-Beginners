@@ -15,15 +15,13 @@ public class Operadores {
 
             System.out.println(numero);
 
-            /*Incremento */
+            /*Pre-Incremento */
             int numero2 = 10;
-            numero2 = ++numero2;
+            System.out.println("Pre-incremento de: "+numero2+" é = "+ ++numero2);
 
-            System.out.println(numero2);
-
-            /*Decremento */
-            numero2 = --numero2;
-            System.out.println(numero2);
+            /*Pre-Decremento */
+            numero2 = 5;
+            System.out.println("Pre-decremento de: "+numero2+" é = "+ --numero2);
 
             /*Ternario */
             int a, b;
