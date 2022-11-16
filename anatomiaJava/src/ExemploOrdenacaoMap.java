@@ -7,26 +7,7 @@ public class ExemploOrdenacaoMap {
      * Autor = Harari - Livro = 21 Lições para o seculo 21, Paginas = 432.
      */
 
-    // Código a começar...
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
+    // Codigo aqui
 
      /* EXERCÍCIOS PROPOSTOS
         Ex 01 - Dada a população estimada de alguns estados do NE brasileiro, faça:
@@ -59,4 +40,6 @@ public class ExemploOrdenacaoMap {
         1 - key(Obejto)+value(Set Objetos)
         2 - key(Obejto)+value(Objeto)
       */
+
+      // Codigo aqui
 }
