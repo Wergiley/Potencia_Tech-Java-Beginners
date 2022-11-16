@@ -6,7 +6,7 @@ import java.util.LinkedHashSet;
 import java.util.Set;
 import java.util.TreeSet;
 
-public class Set1 {
+public class ExemploSet {
     public static void main(String[] args) {
         Set<Double> notas = new HashSet<>(Arrays.asList(7d, 3.5, 8d, 9.1, 2.9, 10d, 6.2, 5.8));
         System.out.println("Conjunto de notas: ");
@@ -62,7 +62,7 @@ public class Set1 {
 
         // Apagando
         notas.clear();
-        System.out.println("Apagando:\n"+notas);
+        System.out.println("Apagando: Conjunto 1\n"+notas);
 
         System.out.println("Conjunto 1 esta vazio? "+ notas.isEmpty());
         System.out.println("COnjunto 2 esta vazio? "+ notas2.isEmpty());
