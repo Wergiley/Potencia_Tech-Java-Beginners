@@ -60,7 +60,13 @@ public class ExerciciosStreamAPI {
         
         // Ex 03
         System.out.println("Transforme a lista em uma lista String em uma lista de numeros inteiros Ex 03:");
+        // passa pra inteiro - coleta para a lista - imprime atravéis do forEach
         numerosAleatorios.stream().map(Integer::parseInt).collect(Collectors.toList()).forEach(System.out::println);
+
+        // Atribuindo a uma variavel: 
+        System.out.println("Atribuindo a uma variavel: Numeros Inteiros: ");
+        List<Integer> numerosInteiros = numerosAleatorios.stream().map(Integer::parseInt).collect(Collectors.toList());
+        System.out.println(numerosInteiros);
         
 
     }
