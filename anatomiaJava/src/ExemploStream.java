@@ -2,11 +2,11 @@ import java.util.Comparator;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
-import java.util.Map.Entry;
+//import java.util.Map.Entry;
 import java.util.Set;
 import java.util.TreeMap;
 import java.util.TreeSet;
-import java.util.function.Function;
+//import java.util.function.Function;
 
 public class ExemploStream {
    // Classe Anônima, é uma classe que não recebe nome,
