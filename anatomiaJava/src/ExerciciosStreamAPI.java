@@ -2,8 +2,11 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Set;
 import java.util.function.Consumer;
+import java.util.function.DoubleConsumer;
 import java.util.function.Function;
-import java.util.stream.Collector;
+import java.util.function.Predicate;
+import java.util.function.ToIntFunction;
+//import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
 public class ExerciciosStreamAPI {
@@ -67,7 +70,72 @@ public class ExerciciosStreamAPI {
         System.out.println("Atribuindo a uma variavel: Numeros Inteiros: ");
         List<Integer> numerosInteiros = numerosAleatorios.stream().map(Integer::parseInt).collect(Collectors.toList());
         System.out.println(numerosInteiros);
+
+        // Pegue os numeros pares e maiores que 2 e coloque em uma lista:
+        System.out.println("Coloque os numeros pares e maiores que 2 e coloque em uma lista:");
+
+        // Ex 01
+        List<Integer> numerosPares = numerosAleatorios.stream().map(Integer::parseInt).filter(new Predicate<Integer>() {
+           @Override
+           public boolean test(Integer i) {
+            if(i%2 == 0 && i > 2 ) return true;
+            return false;
+           } 
+        }).collect(Collectors.toList());
+        System.out.println(numerosPares);
+
+        // Ex 02
+        System.out.println("Coloque os numeros pares e maiores que 2 e coloque em uma lista:");
+        List<Integer> numerosPares2 = numerosAleatorios.stream().map(Integer::parseInt).filter(i -> i % 2 == 0 && i > 2).collect(Collectors.toList());
+        System.out.println(numerosPares2);
+
+
+        // Mostre a média dos numeros: 
+        // Ex 01
+        System.out.println("Mostre a média dos numeros 01:");
+        numerosAleatorios.stream()
+            .mapToInt(new ToIntFunction<String>() {
+                @Override
+                public int applyAsInt(String s) {
+                    return Integer.parseInt(s);
+                }
+            });
         
+        // Ex 02
+        System.out.println("Mostre a média dos numeros 02:");
+        numerosAleatorios.stream().mapToInt(s -> Integer.parseInt(s));
+
+        // Ex 03
+        System.out.println("Mostre a média dos numeros 03:");
+        numerosAleatorios.stream().mapToInt(Integer::parseInt).average().ifPresent( new DoubleConsumer() {
+            @Override
+            public void accept(double v) {
+                System.out.println(v);
+            }
+        });
+
+        // Ex 04
+        System.out.println("Mostre a média dos numeros 04:");
+        numerosAleatorios.stream().mapToInt(Integer::parseInt).average().ifPresent(System.out::println);
+
+        // Removendo Impares:
+        List<Integer> n = numerosAleatorios.stream().map(Integer::parseInt).collect(Collectors.toList());
+        n.removeIf(new Predicate<Integer>() {
+
+            @Override
+            public boolean test(Integer t) {
+                if(t % 2 != 0 ) return true;
+                return false;
+            }
+            
+        });
+        System.out.println("Removendo Impares:");
+        System.out.println(n);
+
+        n.removeIf(integer -> (integer % 2 != 0) );
+        System.out.println("Removendo Impares:");
+        System.out.println(n);
+
 
     }
     
