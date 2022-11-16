@@ -13,7 +13,7 @@ public class AulaDebug {
 
         int media = calcMedia(alunos, scan);
 
-        System.out.printf("Média da turma: %d ", media);
+        System.out.printf("Média da turma: %d ", media); // retorna um inteiro*
     }
 
     public static Double calcMedia(String[] alunos, Scanner scanner) {
