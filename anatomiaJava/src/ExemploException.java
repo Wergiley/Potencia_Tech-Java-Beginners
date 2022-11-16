@@ -25,9 +25,6 @@ public class ExemploException {
         
         } while(continueLooping);
 
-
-        
-
         System.out.println("Continua... ");
     }
 
