@@ -1,30 +1,26 @@
 package desafiodioPoo.bootcamp.src;
 import java.time.LocalDate;
 
-public class Mentoria {
-    String titulo;
-    String descricao;
+public class Mentoria extends Conteudo {
+
+    @Override
+    public double calcularXp() {
+        
+        return XP_PADRAO + 20d;
+    }
+    
     LocalDate data;
 
-    // Grupo de gets
-    public String getTitulo() {
-        return titulo;
+    public Mentoria() {
+
     }
-    public String getDescricao() {
-        return descricao;
-    }
+
+    // gets
+    
     public LocalDate getData() {
         return data;
     }
-    // Grupo de sets
-    public void setTitulo(String titulo) {
-        this.titulo = titulo;
-    }
-
-    public void setDescricao(String descricao) {
-        this.descricao = descricao;
-    }
-
+    // sets
     public void setData(LocalDate data) {
         this.data = data;
     }
@@ -33,11 +29,10 @@ public class Mentoria {
 
     @Override
     public String toString() {
-        return "ErroException{"+
-            "titulo='" + titulo+ '\''+
-            ", descricao="+ descricao + '\'' +
-            ", data="+ data+
+        return "Mentoria{"+
+            "titulo='"+getTitulo()+ '\''+
+            ", descricao="+getDescricao()+ '\''+
+            ", data="+data+
             '}';
     }
-
 }

@@ -5,16 +5,16 @@ import java.time.LocalDate;
 public class Main {
     public static void main(String[] args) {
         // Primeiro  curso
-        CursoBootCamp curso1 = new CursoBootCamp();
+        Curso curso1 = new Curso();
         curso1.setTitulo("Curso de Java");
         curso1.setDescricao("Linguagem Java");
         curso1.setCargaHoraria(40);
         // Segundo curso
-        CursoBootCamp curso2 = new CursoBootCamp();
+        Curso curso2 = new Curso();
         curso2.setTitulo("Curso de HTML e CSS");
         curso2.setDescricao("Linguagem HTML");
         curso2.setCargaHoraria(30);
-        
+
         //Imprime:
         System.out.println(curso1);
         System.out.println(curso2);
@@ -23,9 +23,11 @@ public class Main {
         mentoria.setTitulo("Mentoria de Java");
         mentoria.setDescricao("Descrição: Mentoria de Java");
         mentoria.setData(LocalDate.now());
-
         //Imprime:
         System.out.println(mentoria);
+
+        Conteudo conteudo = new Curso();
+        System.out.println(conteudo);
 
 
         
