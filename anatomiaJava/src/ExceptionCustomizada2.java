@@ -27,8 +27,8 @@ public class ExceptionCustomizada2 {
 
 // Classe externa
 class DivisaoNexata extends Exception {
-    private int numerador;
-    private int denominador;
+    private int numerador; // <- 
+    private int denominador; // <- 
 
     public DivisaoNexata(String string, int numerador, int denominador) {
         this.numerador = numerador;
