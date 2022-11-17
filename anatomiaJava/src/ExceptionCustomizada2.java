@@ -30,12 +30,9 @@ class DivisaoNexata extends Exception {
     private int numerador;
     private int denominador;
 
-    public DivisaoNexata(int numerador, int denominador) {
+    public DivisaoNexata(String string, int numerador, int denominador) {
         this.numerador = numerador;
         this.denominador = denominador;
-    }
-
-    public DivisaoNexata(String string, int i, int j) {
     }
 
 }
