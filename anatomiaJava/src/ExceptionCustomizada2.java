@@ -38,7 +38,7 @@ class DivisaoNexata extends Exception {
 }
 // Resolva o problema do código!
 
-// COnsulta de código:
+// Consulta de código:
 /*
  
 public class ExceptionCustomizada_2 {
