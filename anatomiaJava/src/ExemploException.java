@@ -29,6 +29,8 @@ public class ExemploException {
     }
 
     public static int dividir(int a, int b) {
-        return a / b;    
+        return a / b;
+        
+        // fim    
     }
 }
