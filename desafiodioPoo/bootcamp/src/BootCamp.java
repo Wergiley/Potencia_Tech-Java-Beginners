@@ -7,7 +7,7 @@ import java.util.Objects;
 import java.util.Set;
 
 public class BootCamp {
-    
+
     private String nome;
     private String descricao;
 
@@ -18,7 +18,7 @@ public class BootCamp {
     private Set<Conteudo> conteudos = new LinkedHashSet<>();
 
 
-    // sets - 6
+    // sets - 4
     public void setConteudos(Set<Conteudo> conteudos) {
         this.conteudos = conteudos;
     }
