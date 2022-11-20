@@ -4,7 +4,7 @@ public class FizzBuzz {
 
         Scanner number = new Scanner(System.in);
 
-        int num = 10;
+        int num = number.nextInt();
 
         // TODO: Retorne a palavra correta de acordo com o múltiplo de "num". 
         // Caso o valor não seja múltiplo de 3 ou 5, exiba o número, conforme o enunciado.

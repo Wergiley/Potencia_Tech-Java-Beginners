@@ -5,8 +5,8 @@ public class NumeroIguais {
         //TODO: Imprima se os valores numéricos passados são iguais ou não.
         Scanner scan = new Scanner(System.in);
 
-        int a = 100; 
-        int b =100;
+        int a = scan.nextInt(); 
+        int b = scan.nextInt();
 
         if(a==b) {
             System.out.println("Sao iguais!");
