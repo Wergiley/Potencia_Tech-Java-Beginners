@@ -4,11 +4,10 @@
 
 // Abaixo segue um exemplo de código que você pode ou não utilizar:
 
-import java.util.*;
 import java.util.Scanner;
 
 public class ClassficandoM2 {
-    public static void main(String args[]) {
+    /*public static void main(String args[]) {
           
      Scanner input = new Scanner(System.in);
       int i, aux = 0;
@@ -44,7 +43,31 @@ public class ClassficandoM2 {
       for(int n : ordenacao){
         System.out.println(n);
       }
-  }
+  }*/
+
+// ESTUDANDO O CÓDIGO***
+  public static void main(String args[]) {
+          
+    Scanner input = new Scanner(System.in);
+     int i;
+     int N = input.nextInt();
+       int [] nums = new int[N];
+       
+       for (i = 0; i < N; i++) {
+             nums[i] = input.nextInt();
+        }
+          //TODO: mova todos os inteiros pares para o inicio do array, seguido por todos os números ímpares 
+   int j = 0;
+   for (i = 0; i < nums.length; i++) {
+     if (nums[i] % 2 == 0 ) {
+       nums[i] = nums[i] ^ nums[j] ^ (nums[j] = nums[i]);
+       
+     }
+   } 
+    System.out.println("DADOS DE SAÍDA: ");
+    for(int numero : nums)System.out.println(numero);
+     
+ }
 } 
     
 
