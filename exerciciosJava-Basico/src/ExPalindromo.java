@@ -4,7 +4,7 @@ public class ExPalindromo {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String palavra = sc.nextLine();
-        String palidromo = new StringBuilder(palavra).reverse().toString();
+        String palidromo = new StringBuilder(palavra).toString();
 
         //TODO: Retorne TRUE ou FALSE, caso a "palavra" seja ou não um Palíndromo.
         
