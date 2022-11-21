@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-// SOLUÇÃO DO DESAFIO
+// SOLUÇÃO DO DESAFIO - Código do João Guedes.
 public class ClassificandoMatrizes {
 public static void sort(int[] array) {
     boolean isOdd;
@@ -38,5 +38,6 @@ public static void main(String[] args) {
     for (int number : nums)
         System.out.println(number);
 	}
+
     
 }
