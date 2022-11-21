@@ -1,0 +1,315 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Challenge",
+            "request": "launch",
+            "mainClass": "Challenge",
+            "projectName": "Potencia_Tech-Java-Beginners_69fde20f"
+        },
+        {
+            "type": "java",
+            "name": "Launch GFG",
+            "request": "launch",
+            "mainClass": "GFG",
+            "projectName": "Potencia_Tech-Java-Beginners_69fde20f"
+        },
+        {
+            "type": "java",
+            "name": "Launch SegregateOddEven",
+            "request": "launch",
+            "mainClass": "SegregateOddEven",
+            "projectName": "Potencia_Tech-Java-Beginners_69fde20f"
+        },
+        {
+            "type": "java",
+            "name": "Launch test",
+            "request": "launch",
+            "mainClass": "test",
+            "projectName": "Potencia_Tech-Java-Beginners_69fde20f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch AboutMe",
+            "request": "launch",
+            "mainClass": "AboutMe",
+            "projectName": "Potencia_Tech-Java-Beginners_69fde20f"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArraysVetores",
+            "request": "launch",
+            "mainClass": "ArraysVetores",
+            "projectName": "Potencia_Tech-Java-Beginners_69fde20f"
+        },
+        {
+            "type": "java",
+            "name": "Launch AulaDebug",
+            "request": "launch",
+            "mainClass": "AulaDebug",
+            "projectName": "Potencia_Tech-Java-Beginners_69fde20f"
+        },
+        {
+            "type": "java",
+            "name": "Launch BoletimEstudantil",
+            "request": "launch",
+            "mainClass": "BoletimEstudantil",
+            "projectName": "Potencia_Tech-Java-Beginners_69fde20f"
+        },
+        {
+            "type": "java",
+            "name": "Launch BuscaSequencial",
+            "request": "launch",
+            "mainClass": "BuscaSequencial",
+            "projectName": "Potencia_Tech-Java-Beginners_69fde20f"
+        },
+        {
+            "type": "java",
+            "name": "Launch CheckedException",
+            "request": "launch",
+            "mainClass": "CheckedException",
+            "projectName": "Potencia_Tech-Java-Beginners_69fde20f"
+        },
+        {
+            "type": "java",
+            "name": "Launch ClassficandoM2",
+            "request": "launch",
+            "mainClass": "ClassficandoM2",
+            "projectName": "Potencia_Tech-Java-Beginners_69fde20f"
+        },
+        {
+            "type": "java",
+            "name": "Launch ClassificandoMatrizes",
+            "request": "launch",
+            "mainClass": "ClassificandoMatrizes",
+            "projectName": "Potencia_Tech-Java-Beginners_69fde20f"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExPalindromo",
+            "request": "launch",
+            "mainClass": "ExPalindromo",
+            "projectName": "Potencia_Tech-Java-Beginners_69fde20f"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExceptionCustomizada",
+            "request": "launch",
+            "mainClass": "ExceptionCustomizada",
+            "projectName": "Potencia_Tech-Java-Beginners_69fde20f"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExceptionCustomizada2",
+            "request": "launch",
+            "mainClass": "ExceptionCustomizada2",
+            "projectName": "Potencia_Tech-Java-Beginners_69fde20f"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExemploException",
+            "request": "launch",
+            "mainClass": "ExemploException",
+            "projectName": "Potencia_Tech-Java-Beginners_69fde20f"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExemploFatorial",
+            "request": "launch",
+            "mainClass": "ExemploFatorial",
+            "projectName": "Potencia_Tech-Java-Beginners_69fde20f"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExemploList",
+            "request": "launch",
+            "mainClass": "ExemploList",
+            "projectName": "Potencia_Tech-Java-Beginners_69fde20f"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExemploList02",
+            "request": "launch",
+            "mainClass": "ExemploList02",
+            "projectName": "Potencia_Tech-Java-Beginners_69fde20f"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExemploMap",
+            "request": "launch",
+            "mainClass": "ExemploMap",
+            "projectName": "Potencia_Tech-Java-Beginners_69fde20f"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExemploOrdenacaoSet",
+            "request": "launch",
+            "mainClass": "ExemploOrdenacaoSet",
+            "projectName": "Potencia_Tech-Java-Beginners_69fde20f"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExemploSet",
+            "request": "launch",
+            "mainClass": "ExemploSet",
+            "projectName": "Potencia_Tech-Java-Beginners_69fde20f"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExemploStream",
+            "request": "launch",
+            "mainClass": "ExemploStream",
+            "projectName": "Potencia_Tech-Java-Beginners_69fde20f"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExerciciosList",
+            "request": "launch",
+            "mainClass": "ExerciciosList",
+            "projectName": "Potencia_Tech-Java-Beginners_69fde20f"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExerciciosStreamAPI",
+            "request": "launch",
+            "mainClass": "ExerciciosStreamAPI",
+            "projectName": "Potencia_Tech-Java-Beginners_69fde20f"
+        },
+        {
+            "type": "java",
+            "name": "Launch FatorialDesajeitado",
+            "request": "launch",
+            "mainClass": "FatorialDesajeitado",
+            "projectName": "Potencia_Tech-Java-Beginners_69fde20f"
+        },
+        {
+            "type": "java",
+            "name": "Launch FizzBuzz",
+            "request": "launch",
+            "mainClass": "FizzBuzz",
+            "projectName": "Potencia_Tech-Java-Beginners_69fde20f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Heranca",
+            "request": "launch",
+            "mainClass": "Heranca",
+            "projectName": "Potencia_Tech-Java-Beginners_69fde20f"
+        },
+        {
+            "type": "java",
+            "name": "Launch InfoCarro",
+            "request": "launch",
+            "mainClass": "InfoCarro",
+            "projectName": "Potencia_Tech-Java-Beginners_69fde20f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "Potencia_Tech-Java-Beginners_69fde20f"
+        },
+        {
+            "type": "java",
+            "name": "Launch ManipulandoStrings",
+            "request": "launch",
+            "mainClass": "ManipulandoStrings",
+            "projectName": "Potencia_Tech-Java-Beginners_69fde20f"
+        },
+        {
+            "type": "java",
+            "name": "Launch NumeroIguais",
+            "request": "launch",
+            "mainClass": "NumeroIguais",
+            "projectName": "Potencia_Tech-Java-Beginners_69fde20f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Operadores",
+            "request": "launch",
+            "mainClass": "Operadores",
+            "projectName": "Potencia_Tech-Java-Beginners_69fde20f"
+        },
+        {
+            "type": "java",
+            "name": "Launch QuadradosPefeitos",
+            "request": "launch",
+            "mainClass": "QuadradosPefeitos",
+            "projectName": "Potencia_Tech-Java-Beginners_69fde20f"
+        },
+        {
+            "type": "java",
+            "name": "Launch SistemaNotas",
+            "request": "launch",
+            "mainClass": "SistemaNotas",
+            "projectName": "Potencia_Tech-Java-Beginners_69fde20f"
+        },
+        {
+            "type": "java",
+            "name": "Launch SistemaNotas2",
+            "request": "launch",
+            "mainClass": "SistemaNotas2",
+            "projectName": "Potencia_Tech-Java-Beginners_69fde20f"
+        },
+        {
+            "type": "java",
+            "name": "Launch SomandoMultiplos",
+            "request": "launch",
+            "mainClass": "SomandoMultiplos",
+            "projectName": "Potencia_Tech-Java-Beginners_69fde20f"
+        },
+        {
+            "type": "java",
+            "name": "Launch TiposVariaveis",
+            "request": "launch",
+            "mainClass": "TiposVariaveis",
+            "projectName": "Potencia_Tech-Java-Beginners_69fde20f"
+        },
+        {
+            "type": "java",
+            "name": "Launch UmaChamadaRecursiva",
+            "request": "launch",
+            "mainClass": "UmaChamadaRecursiva",
+            "projectName": "Potencia_Tech-Java-Beginners_69fde20f"
+        },
+        {
+            "type": "java",
+            "name": "Launch ValidacaoDeParenteses",
+            "request": "launch",
+            "mainClass": "ValidacaoDeParenteses",
+            "projectName": "Potencia_Tech-Java-Beginners_69fde20f"
+        },
+        {
+            "type": "java",
+            "name": "Launch numAleatorios",
+            "request": "launch",
+            "mainClass": "numAleatorios",
+            "projectName": "Potencia_Tech-Java-Beginners_69fde20f"
+        },
+        {
+            "type": "java",
+            "name": "Launch parImpar",
+            "request": "launch",
+            "mainClass": "parImpar",
+            "projectName": "Potencia_Tech-Java-Beginners_69fde20f"
+        },
+        {
+            "type": "java",
+            "name": "Launch tabuada",
+            "request": "launch",
+            "mainClass": "tabuada",
+            "projectName": "Potencia_Tech-Java-Beginners_69fde20f"
+        }
+    ]
+}

@@ -9,32 +9,39 @@ import java.util.LinkedHashSet;
 import java.util.Scanner;
 
 public class ClassficandoM2 {
-     public static void main(String args[]) {
-   
-      Scanner scan = new Scanner(System.in);
+      public static void main(String args[]) {
+            
+        try (Scanner input = new Scanner(System.in)) {
+          int i;
 
-      System.out.print("Quantos numeros da Matriz?: ");
-      int N = scan.nextInt();
+          System.out.print("Tamanho da Matriz? ");
+          int N = input.nextInt();
 
-      System.out.println("Digite os número: ");
+          LinkedHashSet<Integer> nums = new LinkedHashSet<>();
+          for ( i = 0; i < N; i++) nums.add(input.nextInt());
+          System.out.println(nums);
 
-      LinkedHashSet<Integer> nums = new LinkedHashSet<>();
-      
-      for (int i = 0; i < N; i++) nums.add(scan.nextInt());
-
-      System.out.println("DADOS DE SAÍDA: ");
-      for( int num : nums) {
-        if(num % 2 == 0) {
-          System.out.println(num);
+             /*
+              mova todos os inteiros pares para 
+              o inicio do array, seguido por todos os números ímpares 
+             */
+  
+          System.out.println("Pares: ");
+          for (int par : nums) {
+            if(par % 2 == 0) {
+              System.out.println(par);
+            }
+          }
+          System.out.println("Impares: ");
+          for (int impar : nums) {
+            if(impar % 2 != 0) {
+              System.out.println(impar);
+            }
+          }
         }
-      }
-
-      for(int num : nums) {
-        if(num % 2 != 0) {
-          System.out.println(num);
-        }
-      }
     }
 } 
+
+
     
 

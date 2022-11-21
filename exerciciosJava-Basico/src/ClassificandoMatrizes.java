@@ -1,37 +1,42 @@
-
-import java.util.LinkedHashSet;
 import java.util.Scanner;
-import static java.lang.System.*;
 
-class ClassificandoMatrizes {
-    public static void main(String[] args) {
-
-       // Criando o objeto scanner:
-       Scanner scanner = new Scanner(System.in);
-
-
-       // Criando o array inicial:
-       out.print("Quantos Numeros na Matriz? ");
-       int tamanhoArray = scanner.nextInt();
-       int[] nums = new int[tamanhoArray];
-
-       for ( int i = 0; i < tamanhoArray; i++) nums[i] = scanner.nextInt();
-
-
-       // Organizando o array:
-       LinkedHashSet<Integer> novoArray = new LinkedHashSet<>();
-
-
-       // Colocando os números pares no ínicio:
-       for (int num : nums) if ((num % 2) == 0) novoArray.add(num);
-
-
-       // Mantendo os números ímpares no final:
-       for (int num : nums) if ((num % 2) != 0) novoArray.add(num);
-
-
-       // Resultado:
-       out.println("DADOS DE SAÍDA:");
-       for (int numero : novoArray) out.println(numero);
+// SOLUÇÃO DO DESAFIO
+public class ClassificandoMatrizes {
+public static void sort(int[] array) {
+    boolean isOdd;
+    int OddIndex = -1;
+    int i = 0;
+    while (i < array.length) {
+        isOdd = array[i] % 2 != 0;
+        if (isOdd && OddIndex == -1)
+            OddIndex = i;
+        else if (!isOdd && OddIndex >= 0) {
+            ClassificandoMatrizes.swap(array, OddIndex, i);
+            i = OddIndex;
+            OddIndex = -1;
+        }
+        i++;
     }
+}
+
+public static void swap(int[] array, int index1, int index2) {
+    int aux = array[index1];
+    array[index1] = array[index2];
+    array[index2] = aux;
+}
+
+public static void main(String[] args) {
+    Scanner input = new Scanner(System.in);
+    int size = input.nextInt();
+    int [] nums = new int[size];
+    for (int i = 0; i < size; i++)
+        nums[i] = input.nextInt();
+    input.close();
+
+    ClassificandoMatrizes.sort(nums);
+    System.out.println("Saída dos dados:");
+    for (int number : nums)
+        System.out.println(number);
+	}
+    
 }
