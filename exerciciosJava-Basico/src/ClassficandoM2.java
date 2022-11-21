@@ -4,70 +4,37 @@
 
 // Abaixo segue um exemplo de código que você pode ou não utilizar:
 
+
+import java.util.LinkedHashSet;
 import java.util.Scanner;
 
 public class ClassficandoM2 {
-    /*public static void main(String args[]) {
-          
-     Scanner input = new Scanner(System.in);
-      int i, aux = 0;
-      int N = input.nextInt();
-    	int [] nums = new int[N];
-    	  for (i = 0; i < N; i++)
-    	  {
-    		  nums[i] = input.nextInt();
-    	  }
-    	  
-    //TODO: mova todos os inteiros pares para o inicio do array, seguido por todos os números ímpares 
-     int[] ordenacao = new int[N];
-      // Código: PRECISA SER REVISADO****
-      for(i = 0; i < N; i++){
-        if(nums[i] % 2 == 0){
-          ordenacao[aux] = nums[i];
-          aux++;
+     public static void main(String args[]) {
+   
+      Scanner scan = new Scanner(System.in);
+
+      System.out.print("Quantos numeros da Matriz?: ");
+      int N = scan.nextInt();
+
+      System.out.println("Digite os número: ");
+
+      LinkedHashSet<Integer> nums = new LinkedHashSet<>();
+      
+      for (int i = 0; i < N; i++) nums.add(scan.nextInt());
+
+      System.out.println("DADOS DE SAÍDA: ");
+      for( int num : nums) {
+        if(num % 2 == 0) {
+          System.out.println(num);
         }
       }
 
-      for(i = 0; i < N; i++){
-
-        if(nums[i] % 2 != 0){
-
-          for(int j = 0; j < N; j++){
-            if(ordenacao[j] == 0){
-              ordenacao[j] = nums[i];
-              break;
-            }
-          }
+      for(int num : nums) {
+        if(num % 2 != 0) {
+          System.out.println(num);
         }
       }
-      for(int n : ordenacao){
-        System.out.println(n);
-      }
-  }*/
-
-// ESTUDANDO O CÓDIGO***
-  public static void main(String args[]) {
-          
-    Scanner input = new Scanner(System.in);
-     int i;
-     int N = input.nextInt();
-       int [] nums = new int[N];
-       
-       for (i = 0; i < N; i++) {
-             nums[i] = input.nextInt();
-        }
-          //TODO: mova todos os inteiros pares para o inicio do array, seguido por todos os números ímpares 
-   int j = 0;
-   for (i = 0; i < nums.length; i++) {
-     if (nums[i] % 2 == 0 ) {
-       nums[i] = nums[i] ^ nums[j] ^ (nums[j] = nums[i]);
-       
-     }
-   } 
-    System.out.println("DADOS DE SAÍDA: ");
-    for(int numero : nums)System.out.println(numero);
-     
- }
+    }
 } 
     
 
