@@ -1,4 +1,4 @@
-package desafiodioPoo.bootcamp.src;
+package bootcamp.src;
 
 import java.util.Objects;
 import java.util.LinkedHashSet;

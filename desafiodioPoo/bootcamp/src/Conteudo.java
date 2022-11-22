@@ -1,4 +1,4 @@
-package desafiodioPoo.bootcamp.src;
+package bootcamp.src;
 
 public abstract class Conteudo {
     

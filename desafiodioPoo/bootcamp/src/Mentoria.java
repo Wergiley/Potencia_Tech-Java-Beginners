@@ -1,4 +1,4 @@
-package desafiodioPoo.bootcamp.src;
+package bootcamp.src;
 import java.time.LocalDate;
 
 public class Mentoria extends Conteudo {
