@@ -8,6 +8,7 @@ public class PrimeirosPassosApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(PrimeirosPassosApplication.class, args);
+		// Versão do Java incompatível com a versão do Spring*
 	}
 
 }

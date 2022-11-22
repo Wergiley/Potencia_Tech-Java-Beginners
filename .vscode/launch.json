@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch PrimeirosPassosApplication",
+            "request": "launch",
+            "mainClass": "dio.springboot.PrimeirosPassosApplication",
+            "projectName": "primeiros-passos"
+        },
+        {
+            "type": "java",
             "name": "Launch Challenge",
             "request": "launch",
             "mainClass": "Challenge",
