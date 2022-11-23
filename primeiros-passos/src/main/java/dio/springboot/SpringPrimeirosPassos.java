@@ -10,6 +10,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SpringPrimeirosPassos {
     public static void main(String[] args) {
         SpringApplication.run(SpringPrimeirosPassos.class, args); 
-        // Versão incompatível com essa versão do Spring.
+        // Versão incompatível com essa versão do Spring...
     }
 }
