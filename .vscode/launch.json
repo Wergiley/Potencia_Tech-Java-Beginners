@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch SpringPrimeirosPassosApplication",
+            "request": "launch",
+            "mainClass": "dio.springboot.SpringPrimeirosPassosApplication",
+            "projectName": "spring-primeiros-passos"
+        },
+        {
+            "type": "java",
             "name": "Launch Main",
             "request": "launch",
             "mainClass": "bootcamp.src.Main",
