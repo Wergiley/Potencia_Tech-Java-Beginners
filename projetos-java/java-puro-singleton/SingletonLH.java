@@ -1,5 +1,4 @@
 
-
 // singleton "Lazy Holder"
 public class SingletonLH {
     
