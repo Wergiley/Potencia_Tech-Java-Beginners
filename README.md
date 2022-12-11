@@ -1,6 +1,6 @@
 <h1>Potência Tech powered by iFood - Java Beginners</h1>
 <div align="center">
-<img align="center" width="100px" src="./img/InsígniaPontênciaTech.png">
+<img align="right" width="100px" src="./img/InsígniaPontênciaTech.png">
 </div>
 
 <p>Estudo da linguagem Java - Básico: bootcamp concluído em 25/11/22 ✅</P>
