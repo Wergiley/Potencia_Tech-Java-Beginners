@@ -1,5 +1,5 @@
+<div>
 <h1>Potência Tech powered by iFood - Java Beginners</h1>
-<div align="center">
 <img align="right" width="100px" src="./img/InsígniaPontênciaTech.png">
 </div>
 
