@@ -1,4 +1,4 @@
-<h1><img width="100px" src="./img/InsígniaPontênciaTech.png"> Potência Tech powered by iFood - Java Beginners</h1>
+<h1><img width="100px" src="./img/InsígniaPontênciaTech.png"> <br>Potência Tech powered by iFood - Java Beginners</h1>
 - Estudo da linguagem Java - Básico: bootcamp concluído em 25/11/22 ✅
 
 - BootCamp Java Beginners: Jornada de 91hrs com anatomia da linguagem java, fundamentos, criando sistemas, jogos, programação orientada a objetos, explorando a linguagem. ✅
