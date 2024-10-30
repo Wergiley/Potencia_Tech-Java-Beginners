@@ -13,5 +13,5 @@ BootCamp Constituido Por:<br>
 - 1 live Mentoria.
 </p>
 
-<p>Com imersão no Carreira Tech em 23/11 ingressando na One Oracle Next Education com formação back-end em Java e Banco de dados.</p>
+<p>Com imersão no Carreira Tech em 23/11 ingressando na Oracle Next Education - ONE com formação Back-End e Front-End em Java e Banco de dados e IA Generativa.</p>
  
